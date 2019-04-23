@@ -658,6 +658,11 @@ for game in ['adventure', 'air_raid', 'alien', 'amidar', 'assault', 'asterix', '
             nondeterministic=nondeterministic,
         )
 
+# Theorem Prover
+register(
+    id='TheoremProver-v0',
+    entry_point='gym.envs.theorem_prover.prover:TheoremProver',
+)
 
 # Unit test
 # ---------
